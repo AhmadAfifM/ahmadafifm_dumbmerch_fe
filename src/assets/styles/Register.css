@@ -10,10 +10,15 @@
   font-family: "Sen", sans-serif;
 }
 
-.log {
+.left {
+  padding-right: 200px;
+}
+
+.right {
   background-color: #181818;
   border-radius: 10px;
-  padding: 0px 30px;
+  padding: 30px 30px;
+  margin-top: 50px;
 }
 
 .title {
@@ -21,11 +26,17 @@
 }
 
 .content {
-  min-width: 100;
+  min-width: 100%;
+  display: inline-flex;
+  justify-content: center;
 }
 
-span {
+p {
   color: #6a6a6a;
+}
+
+.btns {
+  margin-top: 50px !important;
 }
 
 .btn {

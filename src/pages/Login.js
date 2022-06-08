@@ -5,21 +5,32 @@ import logo from "../assets/img/dumbways.png";
 
 export default function Login() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid d-flex">
       <div className="content">
-        <div className="row p-5">
-          <div className="col-8">
-            <img src={logo} alt=""></img>
-            <h1 className="title">Easy, Fast and Reliable</h1>
-            <span>Go Shopping for merchandise, just go to dumb Merch</span>
-            <br></br>
-            <span>
-              shopping, the biggest merchandise in <b>Indonesia</b>
-            </span>
+        <div className="row ">
+          <div className="left col-8">
+            <div>
+              <img src={logo} alt=""></img>
+            </div>
+            <div>
+              <h1 className="title">Easy, Fast and Reliable</h1>
+              <p>
+                Go Shopping for merchandise, just go to dumb Merch shopping, the
+                biggest merchandise in <b>Indonesia</b>
+              </p>
+            </div>
+            <div className="btns">
+              <input class="btn-login btn" type="button" value="Login"></input>
+              <input
+                class="btn-register btn ms-2"
+                type="button"
+                value="Register"
+              ></input>
+            </div>
           </div>
-          <div className="log col-4">
-            <form className="">
-              <h2 className="login mt-5">Login</h2>
+          <div className="col-4">
+            <form className="right">
+              <h2 className="login">Login</h2>
               <input
                 type="email"
                 className="form-control mt-5 "
@@ -37,14 +48,6 @@ export default function Login() {
               </button>
             </form>
           </div>
-        </div>
-        <div>
-          <input class="btn-login btn" type="button" value="Login"></input>
-          <input
-            class="btn-register btn ms-2"
-            type="button"
-            value="Register"
-          ></input>
         </div>
       </div>
     </div>
