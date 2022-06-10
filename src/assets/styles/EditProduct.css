@@ -1,0 +1,42 @@
+.e-container {
+  height: 100vh;
+  background-color: #0b0b0b;
+  display: flex;
+}
+
+.e-content {
+  padding-top: 50px;
+  width: 100%;
+}
+
+.btn-upload {
+  background-color: #f74d4d;
+  width: 143px;
+  height: 50px;
+  font-weight: 400;
+}
+
+.uploads {
+  display: flex;
+  align-items: center;
+}
+
+.descupload {
+  padding-left: 60px;
+  color: white;
+}
+
+.form-control,
+textarea {
+  background-color: #d2d2d2;
+  color: white;
+}
+
+.btn-save {
+  background-color: #56c05a;
+}
+
+.actions {
+  margin-right: -15px;
+  padding-top: 30px;
+}

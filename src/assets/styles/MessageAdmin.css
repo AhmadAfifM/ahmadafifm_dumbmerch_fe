@@ -1,0 +1,35 @@
+.msgadm-container {
+  background-color: #0b0b0b !important;
+  display: flex;
+  align-items: flex-start;
+  color: white;
+}
+
+.msgadm-row {
+  min-width: 100%;
+}
+
+.msgadm-user {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+
+.message-box {
+  padding-left: 30px;
+  min-height: 100%;
+}
+
+.msgadm-row {
+  min-width: 100%;
+}
+
+.chat-user {
+  border-right: 1px #6a6a6a solid;
+  min-height: 95vh;
+}
+
+.chat-box {
+  min-width: 100;
+  width: 140vh;
+}

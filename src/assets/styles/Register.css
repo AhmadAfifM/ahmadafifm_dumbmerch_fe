@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap");
 
-.container-fluid {
+.register-container {
   background-color: #0b0b0b !important;
   height: 100vh;
   color: white;
@@ -10,11 +10,11 @@
   font-family: "Sen", sans-serif;
 }
 
-.left {
+.register-left {
   padding-right: 200px;
 }
 
-.right {
+.register-right {
   background-color: #181818;
   border-radius: 10px;
   padding: 30px 30px;
@@ -25,7 +25,7 @@
   font-weight: 700 !important;
 }
 
-.content {
+.register-content {
   min-width: 100%;
   display: inline-flex;
   justify-content: center;
@@ -35,7 +35,7 @@ p {
   color: #6a6a6a;
 }
 
-.btns {
+.register-btns {
   margin-top: 50px !important;
 }
 
