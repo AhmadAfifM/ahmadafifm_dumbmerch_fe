@@ -5,16 +5,16 @@ import logo from "../assets/img/dumbways.png";
 
 export default function Login() {
   return (
-    <div className="container-fluid d-flex">
-      <div className="content">
-        <div className="row ">
-          <div className="left col-8">
+    <div className="login-container container-fluid d-flex">
+      <div className="login-content d-flex">
+        <div className="row">
+          <div className="login-left col-xs-8 col-sm-8 col-md-8">
             <div>
               <img src={logo} alt=""></img>
             </div>
             <div>
               <h1 className="title">Easy, Fast and Reliable</h1>
-              <p>
+              <p className="login-p">
                 Go Shopping for merchandise, just go to dumb Merch shopping, the
                 biggest merchandise in <b>Indonesia</b>
               </p>
@@ -28,8 +28,8 @@ export default function Login() {
               ></input>
             </div>
           </div>
-          <div className="col-4">
-            <form className="right">
+          <div className="col-xs-4 col-sm-4 col-md-4">
+            <form className="login-right">
               <h2 className="login">Login</h2>
               <input
                 type="email"
