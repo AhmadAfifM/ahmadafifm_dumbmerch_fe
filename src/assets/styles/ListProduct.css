@@ -1,0 +1,25 @@
+.l-container {
+  background-color: #0b0b0b;
+  height: 100vh;
+}
+
+.l-content {
+  padding-top: 50px;
+}
+
+.btn-edit {
+  background-color: #56c05a;
+  width: 135px;
+  height: 40px;
+}
+
+.btn-delete {
+  background-color: #f74d4d;
+  width: 135px;
+  height: 40px;
+  padding-left: 30px;
+}
+
+.action {
+  display: flex;
+}
