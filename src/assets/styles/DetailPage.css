@@ -1,0 +1,47 @@
+.d-container {
+  background-color: #0b0b0b;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.d-details {
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+.d-detail {
+  padding-bottom: 20px;
+}
+
+.d-thumbnail {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.d-content {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.d-img-card {
+  width: 436px;
+  height: 555px;
+}
+
+.d-h4 {
+  text-align: end;
+  padding-bottom: 30px;
+  color: #f74d4d;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+.d-h3 {
+  color: #f74d4d;
+  font-weight: 800;
+  font-size: 35px;
+  padding-top: 50px;
+}
